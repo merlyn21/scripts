@@ -1,0 +1,12 @@
+name: Dev deploy 4
+
+on:
+  workflow _dispatch:  
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
