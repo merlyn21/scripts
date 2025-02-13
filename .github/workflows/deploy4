@@ -1,7 +1,7 @@
 name: Dev deploy 4
 
 on:
-  workflow _dispatch:  
+  workflow_dispatch:  
 
 jobs:
   build-and-push:
@@ -9,4 +9,4 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout
